@@ -1,0 +1,10 @@
+.venv
+.env
+venv
+notebook
+research
+population_data.db
+Population_decline_Manufacturing.ipynb
+Data/Trade
+Data/Deaths_by_age_group
+
