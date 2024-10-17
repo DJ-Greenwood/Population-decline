@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Denzi\OneDrive\Documents\GitHub\Populations_decline\Population-decline\jupyter_env
+set VIRTUAL_ENV=C:\Users\Denzi\OneDrive\Documents\GitHub\Population_decline_version_2\Population-decline\jupyter_env
 
 if not defined PROMPT set PROMPT=$P$G
 
