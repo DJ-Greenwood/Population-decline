@@ -39,10 +39,10 @@ deactivate nondestructive
 if [ "${OSTYPE:-}" = "cygwin" ] || [ "${OSTYPE:-}" = "msys" ] ; then
     # transform D:\path\to\venv to /d/path/to/venv on MSYS
     # and to /cygdrive/d/path/to/venv on Cygwin
-    export VIRTUAL_ENV=$(cygpath "C:\Users\Denzi\OneDrive\Documents\GitHub\Population_decline_version_2\Population-decline\jupyter_env")
+    export VIRTUAL_ENV=$(cygpath "C:\Users\Denzi\OneDrive\Documents\GitHub\Populations_decline\Population-decline\jupyter_env")
 else
     # use the path as-is
-    export VIRTUAL_ENV="C:\Users\Denzi\OneDrive\Documents\GitHub\Population_decline_version_2\Population-decline\jupyter_env"
+    export VIRTUAL_ENV="C:\Users\Denzi\OneDrive\Documents\GitHub\Populations_decline\Population-decline\jupyter_env"
 fi
 
 _OLD_VIRTUAL_PATH="$PATH"
